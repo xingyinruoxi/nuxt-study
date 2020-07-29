@@ -1,7 +1,4 @@
 # nuxt-study
-<<<<<<< HEAD
-
-## Build Setup
 
 ```bash
 # install dependencies
@@ -17,8 +14,3 @@ $ yarn start
 # generate static project
 $ yarn generate
 ```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
-=======
-nuxt 框架学习
->>>>>>> 16c957c0de424c7fa3897a890e7d9c0820240511
