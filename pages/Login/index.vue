@@ -18,6 +18,26 @@ export default {
       link: [{ rel: "favicon", href: "favicon.ico" }],
     };
   },
+  asyncData({
+    isDev,
+    route,
+    store,
+    env,
+    params,
+    query,
+    req,
+    res,
+    redirect,
+    error,
+  }) {
+    console.log("params", params, "redirect", redirect, "query", query);
+  },
+  beforeCreate() {
+    console.log("beforeCreate");
+  },
+  created() {
+    console.log("created");
+  },
   data() {
     return {
       user: {
