@@ -1,3 +1,3 @@
 <template>
-  <nuxt></nuxt>
+  <h4>other name</h4>
 </template>

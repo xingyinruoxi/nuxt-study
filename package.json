@@ -1,16 +1,24 @@
 {
-  "name": "nuxt-study",
-  "version": "1.0.0",
-  "private": true,
-  "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate"
-  },
-  "dependencies": {
-    "ant-design-vue": "^1.6.4",
-    "nuxt": "^2.14.0"
-  },
-  "devDependencies": {}
+    "name": "nuxt-study",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "dev": "nuxt",
+        "build": "nuxt build",
+        "start": "nuxt start",
+        "generate": "nuxt generate"
+    },
+    "dependencies": {
+        "@nuxtjs/style-resources": "^1.0.0",
+        "element-ui": "^2.13.2",
+        "kao": "^1.3.29",
+        "koa-bodyparser": "^4.3.0",
+        "koa-router": "^9.1.0",
+        "nuxt": "^2.14.0"
+    },
+    "devDependencies": {
+        "node-sass": "^4.14.1",
+        "sass": "^1.26.10",
+        "sass-loader": "^9.0.2"
+    }
 }
