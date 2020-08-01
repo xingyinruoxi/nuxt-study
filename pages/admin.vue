@@ -1,6 +1,11 @@
 <template>
-  <h1 class="title">
-    admin page
-    <span>哈哈</span>
-  </h1>
+  <div>
+    <h2>admin page</h2>
+  </div>
 </template>
+
+<script>
+export default {
+  middleware: ["auth"],
+};
+</script>

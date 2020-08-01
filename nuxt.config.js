@@ -11,8 +11,8 @@ export default {
                 path: "/foo",
                 component: resolve(__dirname, "pages/othername.vue")
             });
-        },
-        middleware: ["auth"]
+        }
+        // middleware: ["auth"]
     },
     /*
      ** Nuxt target
@@ -49,7 +49,11 @@ export default {
      ** Plugins to load before mounting the App
      ** https://nuxtjs.org/guide/plugins
      */
-    plugins: ["@/plugins/element-ui", "@/plugins/interceptor"],
+    plugins: [
+        "@/plugins/element-ui",
+        "@/plugins/api-inject",
+        "@/plugins/interceptor"
+    ],
     // plugins: [],
     /*
      ** Auto import components
@@ -63,7 +67,11 @@ export default {
     /*
      ** Nuxt.js modules
      */
-    modules: ["@nuxtjs/axios", "@nuxtjs/style-resources"],
+    modules: [
+        "@nuxtjs/axios",
+        "@nuxtjs/style-resources",
+        "cookie-universal-nuxt"
+    ],
     axios: {
         proxy: true
     },

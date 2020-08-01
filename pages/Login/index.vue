@@ -48,14 +48,13 @@ export default {
   },
   methods: {
     onLogin() {
-      console.log("999999999999");
-      /*  this.$store.dispatch("user/login", this.user).then(ok => {
+       this.$store.dispatch("user/login", this.user).then(ok => {
         // 登录成功重定向
         if (ok) {
           const redirect = this.$route.query.redirect || "/";
           this.$router.push(redirect);
         }
-      }); */
+      });
     },
   },
 };
